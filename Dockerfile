@@ -3,7 +3,7 @@
 #### IMPORTANTE: El MICROSERVICIO desplegado con este DOCKERFILE debería generar una IMAGE con un tamaño de: [532MB]. ####
 ########################################################################################################################## 
 
-#STAGE: [CONSTRUCTION]:
+#STAGE: [CONSTRUCTION]: 
 FROM maven:3.5-jdk-8-slim AS BUILD
 WORKDIR /usr/src/app
 COPY pom.xml .

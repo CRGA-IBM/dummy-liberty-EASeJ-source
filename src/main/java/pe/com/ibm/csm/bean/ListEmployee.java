@@ -14,7 +14,7 @@ import org.eclipse.microprofile.openapi.annotations.media.Schema;
  public class ListEmployee{   
 
 	    @Schema( required = true )
-	    @XmlElement
+	    @XmlElement  
 	    private List<Employee> listEmployees;
 	
 	    public List<Employee> getListEmployees(){
