@@ -30,7 +30,7 @@ import pe.com.ibm.csm.service.EmployeeService;
 	    **/ 
 	    @GET   
 	    @Path( "/getEmpleados" )
-	    @Produces( MediaType.APPLICATION_JSON )     
+	    @Produces( MediaType.APPLICATION_JSON )         
 	    @APIResponse(
 	            responseCode = "404",
 	            description  = "Error en el envio de datos",
